@@ -1,6 +1,6 @@
 import React from "react"
 // @ts-ignore
-import Background from "../img/minimalistic.jpg"
+import Background from "../images/officesupplies.jpg"
 import {Link} from "gatsby";
 
 
@@ -27,6 +27,7 @@ export default (props: any) => (
             style={{
                 textShadow: `2px grey`,
                 fontSize: `1.5rem`,
+                fontWeight: 'lighter'
             }}
         >
             {props.subText}
@@ -35,10 +36,9 @@ export default (props: any) => (
             fontSize: '20px',
             borderRadius: `8px`,
             padding: '8px 10px',
-            backgroundColor: '#f6268f',
-            border: '1px solid',
-            borderColor: '#f65c97',
-            boxShadow: '#f65c97 2px 2px 2px'
+            backgroundColor: 'palevioletred',
+            border: '2px outset',
+            fontWeight: 'lighter'
         }}>
             <Link to='/#' style={{textDecoration: 'none', color: 'whitesmoke'}}> Explore Services
             </Link>

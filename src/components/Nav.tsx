@@ -8,7 +8,8 @@ const ListLink = (props: any) => {
                 display: `flex`,
                 paddingRight: '20px'
             }}>
-            <Link style={{textDecoration: 'none', color: 'whitesmoke'}} to={props.to}>{props.children}</Link>
+            <Link style={{textDecoration: 'none', color: 'whitesmoke'}}
+                  to={props.to}>{props.children}</Link>
         </li>
     )
 }
@@ -21,7 +22,7 @@ export default (props: any) => (
         gridAutoFlow: 'column',
         justifyContent: 'space-between',
         alignItems: 'center',
-        fontSize: '22px'
+        fontSize: '22px',
     }}>
         <div className="left-nav">
             <ul style={{listStyle: `none`, display: 'flex'}}>

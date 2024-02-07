@@ -2,12 +2,13 @@ import * as React from "react"
 import type {HeadFC, PageProps} from "gatsby"
 import Header from "../components/Header";
 import Layout from "../components/Layout";
+import Introduction from "../components/Introduction";
 
 
 const pageStyles = {
     color: "#232129",
     padding: 16,
-    fontFamily: "-apple-system, Roboto, sans-serif, serif",
+    fontFamily: "sans-serif, serif",
     display: 'flex',
     justifyContent: 'center',
 }
@@ -149,7 +150,7 @@ const IndexPage: React.FC<PageProps> = () => {
                         subText="Where Knowledge Meets Precision"
                         headerPadding="10rem"></Header>
                 <main style={pageStyles}>
-                    ...
+                    <Introduction/>
                 </main>
             </Layout>
         </>
