@@ -33,10 +33,12 @@ export default (props: any) => (
         </h4>
         <button style={{
             fontSize: '20px',
-            borderRadius: `2px`,
-            padding: '6px 8px',
-            backgroundColor: 'coral',
-            border: '1px solid lightcoral'
+            borderRadius: `8px`,
+            padding: '8px 10px',
+            backgroundColor: '#f6268f',
+            border: '1px solid',
+            borderColor: '#f65c97',
+            boxShadow: '#f65c97 2px 2px 2px'
         }}>
             <Link to='/#' style={{textDecoration: 'none', color: 'whitesmoke'}}> Explore Services
             </Link>

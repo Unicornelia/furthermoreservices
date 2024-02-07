@@ -6,8 +6,7 @@ const ListLink = (props: any) => {
         <li
             style={{
                 display: `flex`,
-                marginRight: `1rem`,
-                marginBottom: `1rem`
+                paddingRight: '20px'
             }}>
             <Link style={{textDecoration: 'none', color: 'whitesmoke'}} to={props.to}>{props.children}</Link>
         </li>
@@ -16,8 +15,13 @@ const ListLink = (props: any) => {
 
 export default (props: any) => (
     <div style={{
-        padding: '2rem', backgroundColor: '#09456f', display: 'flex', justifyContent: 'space-between',
-        alignItems: 'center', fontSize: '22px'
+        padding: '1.5rem',
+        backgroundColor: '#07455f',
+        display: 'grid',
+        gridAutoFlow: 'column',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        fontSize: '22px'
     }}>
         <div className="left-nav">
             <ul style={{listStyle: `none`, display: 'flex'}}>

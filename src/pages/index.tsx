@@ -143,14 +143,16 @@ const links = [
 
 const IndexPage: React.FC<PageProps> = () => {
     return (
-        <Layout>
-            <Header headerText="Furthermore Scientific Services"
-                    subText="Where Knowledge Meets Precision"
-                    headerPadding="10rem"></Header>
-            <main style={pageStyles}>
-                ...
-            </main>
-        </Layout>
+        <>
+            <Layout>
+                <Header headerText="Furthermore Scientific Services"
+                        subText="Where Knowledge Meets Precision"
+                        headerPadding="10rem"></Header>
+                <main style={pageStyles}>
+                    ...
+                </main>
+            </Layout>
+        </>
     )
 }
 
