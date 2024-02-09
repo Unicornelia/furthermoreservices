@@ -1,12 +1,15 @@
 import React from "react";
 import {StaticImage} from "gatsby-plugin-image";
 
-export default (props: any) => (
+export default () => (
     <div style={{
         display: `grid`,
         marginTop: '-80px',
+        marginBottom: '180px',
         width: '60%',
-        justifyItems: 'center',
+        justifySelf: 'center',
+        textAlign: 'center',
+        padding: '1rem',
         backgroundColor: 'whitesmoke',
         boxShadow: 'rosybrown 10px 10px 10px'
     }}>
@@ -37,7 +40,6 @@ export default (props: any) => (
                     color: 'whitesmoke'
                 }}>Learn more about the services</button>
             </aside>
-
         </div>
     </div>
 )

@@ -2,14 +2,15 @@ import * as React from "react"
 import type {HeadFC, PageProps} from "gatsby"
 import Header from "../components/Header";
 import Layout from "../components/Layout";
-import Introduction from "../components/Introduction";
+import Introduction from "./about";
+import Services from "./services";
 
 
 const pageStyles = {
     color: "#232129",
     padding: 16,
     fontFamily: "sans-serif, serif",
-    display: 'flex',
+    display: 'grid',
     justifyContent: 'center',
 }
 const headingStyles = {
@@ -151,6 +152,7 @@ const IndexPage: React.FC<PageProps> = () => {
                         headerPadding="10rem"></Header>
                 <main style={pageStyles}>
                     <Introduction/>
+                    <Services/>
                 </main>
             </Layout>
         </>
