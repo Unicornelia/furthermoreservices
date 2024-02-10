@@ -14,15 +14,16 @@ const ListLink = (props: any) => {
     )
 }
 
-export default (props: any) => (
+export default () => (
     <div style={{
-        padding: '1.5rem',
+        padding: '1rem',
         backgroundColor: '#07455f',
         display: 'grid',
         gridAutoFlow: 'column',
         justifyContent: 'space-between',
         alignItems: 'center',
-        fontSize: '22px',
+        fontSize: '1.25rem',
+        fontVariant: 'small-caps'
     }}>
         <div className="left-nav">
             <ul style={{listStyle: `none`, display: 'flex'}}>
@@ -31,9 +32,10 @@ export default (props: any) => (
         </div>
         <div className="right-nav">
             <ul style={{listStyle: `none`, display: 'flex', alignContent: 'flex-end'}}>
-                <ListLink to="/#">About</ListLink>
-                <ListLink to="/#">Services</ListLink>
-                <ListLink to="/#">Contact</ListLink>
+                <ListLink to="/#about">About</ListLink>
+                <ListLink to="/#services">Services</ListLink>
+                <ListLink to="/#publications">Publications</ListLink>
+                <ListLink to="/#contact">Contact</ListLink>
             </ul>
         </div>
     </div>

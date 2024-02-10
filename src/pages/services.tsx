@@ -3,30 +3,29 @@ import Block from "../components/Block";
 import {StaticImage} from "gatsby-plugin-image";
 
 export default () => (
-    <div style={{
-        display: `grid`,
-        marginTop: '-80px',
-        justifyItems: 'center',
-        width: '80%',
-        justifySelf: 'center',
-        padding: '5rem',
-        backgroundColor: 'whitesmoke',
-        boxShadow: 'rosybrown 10px 10px 10px'
-    }}>
+    <div
+        id='services'
+        style={{
+            display: `grid`,
+            justifyItems: 'center',
+            width: '80%',
+            justifySelf: 'center',
+            padding: '2rem 5rem',
+            backgroundColor: 'whitesmoke',
+            boxShadow: 'rosybrown 10px 10px 10px',
+            marginBottom: '3rem',
+        }}>
         <h2 style={{textShadow: `2px grey`, fontSize: `2rem`, fontWeight: 'lighter'}}>What can I offer You?</h2>
-        <h4 style={{width: '60%', fontWeight: 'lighter', textAlign: 'center', paddingBottom: '30px'}}> I am well aware
-            that each scientific
-            project is unique, and
-            that's why I offer tailored services to
-            meet your specific needs. Click here to contact me and let us know how I can help you.</h4>
-
+        <h4 style={{width: '60%', fontWeight: 'lighter', textAlign: 'center', paddingBottom: '30px'}}>I am well
+            aware that each scientific project is unique, and that's why I offer tailored services to meet your
+            specific needs.</h4>
         <div style={{
             display: 'grid',
             gridTemplateColumns: "1fr 1fr 1fr",
             columnGap: "50px",
             rowGap: "40px",
+            marginBottom: '3rem',
         }}>
-
             <span style={{padding: '1rem', borderStyle: 'outset'}}>
                 <StaticImage src="../images/proofreading.png" alt='proofreading' width={40}/>
             <Block title='Proofreading and Editing' content='My expertise in proofreading and editing will ensure that your scientific work is free of errors and
@@ -63,14 +62,15 @@ export default () => (
                     your scientific work to a global audience."/>
             </span>
         </div>
+
         <button style={{
             width: 'fit-content',
-            fontSize: '16px',
-            borderRadius: `8px`,
-            padding: '8px 10px',
+            fontSize: '1.15rem',
+            borderRadius: `1.15rem`,
+            padding: '0.5rem 0.75rem',
             backgroundColor: 'palevioletred',
             border: '2px outset',
-            marginTop: '40px',
+            fontWeight: 'lighter',
             color: 'whitesmoke'
         }}>Get in touch
         </button>

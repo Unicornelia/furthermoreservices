@@ -3,7 +3,6 @@ import React from "react"
 import Background from "../images/officesupplies.jpg"
 import {Link} from "gatsby";
 
-
 export default (props: any) => (
     <div
         style={{
@@ -26,21 +25,23 @@ export default (props: any) => (
         <h4
             style={{
                 textShadow: `2px grey`,
-                fontSize: `1.5rem`,
+                fontSize: `1.75rem`,
                 fontWeight: 'lighter'
             }}
         >
             {props.subText}
         </h4>
         <button style={{
-            fontSize: '20px',
-            borderRadius: `8px`,
-            padding: '8px 10px',
+            fontSize: '1.15rem',
+            borderRadius: `1.15rem`,
+            padding: '0.5rem 0.75rem',
             backgroundColor: 'palevioletred',
             border: '2px outset',
-            fontWeight: 'lighter'
+            fontWeight: 'lighter',
+            color: 'whitesmoke'
         }}>
-            <Link to='/#' style={{textDecoration: 'none', color: 'whitesmoke'}}> Explore Services
+            <Link to='/#services' style={{textDecoration: 'none', color: 'whitesmoke'}}>
+                Explore Services
             </Link>
         </button>
     </div>
