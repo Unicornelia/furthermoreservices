@@ -14,6 +14,7 @@ export default () => (
             backgroundColor: 'whitesmoke',
             boxShadow: 'rosybrown 10px 10px 10px',
             marginBottom: '3rem',
+            borderRadius: 4
         }}>
         <h2 style={{textShadow: `2px grey`, fontSize: `2rem`, fontWeight: 'lighter'}}>What can I offer You?</h2>
         <h4 style={{width: '60%', fontWeight: 'lighter', textAlign: 'center', paddingBottom: '30px'}}>I am well

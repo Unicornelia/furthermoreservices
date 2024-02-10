@@ -13,6 +13,7 @@ export default () => (
             backgroundColor: 'whitesmoke',
             boxShadow: 'rosybrown 10px 10px 10px',
             marginBottom: '3rem',
+            borderRadius: 4
         }}>
         <h4 style={{textShadow: `2px grey`, fontSize: `1.75rem`, fontWeight: 'lighter'}}>My Academic Work</h4>
 

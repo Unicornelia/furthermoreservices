@@ -13,7 +13,8 @@ export default () => (
             textAlign: 'center',
             padding: '1.5rem',
             backgroundColor: 'whitesmoke',
-            boxShadow: 'rosybrown 10px 10px 10px'
+            boxShadow: 'rosybrown 10px 10px 10px',
+            borderRadius: 4
         }}>
         <h4 style={{textShadow: `2px grey`, fontSize: `2rem`, fontWeight: 'lighter'}}>Welcome
             fellow scientist!</h4>
