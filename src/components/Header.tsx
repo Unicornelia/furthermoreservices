@@ -16,21 +16,22 @@ export default (props: any) => (
         <h1
             style={{
                 textShadow: `2px grey`,
-                fontVariant: `small-caps`,
-                fontSize: `4rem`,
+                fontVariant: 'petite-caps',
+                fontSize: `3.5rem`,
             }}
         >
             {props.headerText}
         </h1>
+
         <h4
             style={{
                 textShadow: `2px grey`,
                 fontSize: `1.75rem`,
                 fontWeight: 'lighter'
-            }}
-        >
+            }}>
             {props.subText}
         </h4>
+
         <button style={{
             fontSize: '1.15rem',
             borderRadius: `1.15rem`,

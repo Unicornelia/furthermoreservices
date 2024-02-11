@@ -19,7 +19,7 @@ export default () => {
         gridAutoFlow: 'column',
         justifyContent: 'space-between',
         alignItems: 'center',
-        fontSize: '1.25rem',
+        fontSize: '1.15rem',
     };
 
     return (

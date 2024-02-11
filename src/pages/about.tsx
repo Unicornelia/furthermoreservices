@@ -31,8 +31,7 @@ export default ({style}: { style: CSSProperties }) => {
 
     return (
         <div id='about' style={style}>
-            <h4 style={headerStyle}>Welcome
-                fellow scientist!</h4>
+            <h4 style={headerStyle}>Welcome fellow scientist!</h4>
             <div style={{
                 display: 'grid',
                 gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1.25fr))',

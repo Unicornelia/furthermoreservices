@@ -22,13 +22,19 @@ export default () => {
             <div
                 id='publications'
                 style={pubStyle}>
-                <h4 style={{textShadow: `2px grey`, fontSize: `1.75rem`, fontWeight: 'lighter'}}>My Academic Work</h4>
+                <h4 style={{
+                    textShadow: `2px grey`,
+                    fontSize: `1.75rem`,
+                    fontWeight: 'normal',
+                    fontVariant: 'petite-caps'
+                }}>
+                    My Academic Work
+                </h4>
 
                 <p>Barkaszi, I., Ehmann, B., Tölgyesi, B., Balázs, L., & Altbäcker, A. (2022). <OutboundLink
                     href='https://doi.org/10.3389/fphys.2022.1008508' target='_blank'>Are head-down tilt bedrest studies
                     capturing the true nature of spaceflight-induced cognitive changes? A
-                    review.</OutboundLink> Frontiers in
-                    Physiology, 13, 2368.</p>
+                    review.</OutboundLink> Frontiers in Physiology, 13, 2368.</p>
 
                 <p>Takács, E., Barkaszi, I., Czigler, I., Pató, L. G., Altbäcker, A., McIntyre, J., ... & Balázs, L.
                     (2021). <OutboundLink href='https://doi.org/10.1038/s41598-021-88938-6' target='_blank'>Persistent
@@ -44,10 +50,9 @@ export default () => {
                 </p>
 
                 <p>Takács, E., Barkaszi, I., Altbäcker, A., Czigler, I., & Balázs, L. (2019). <OutboundLink
-                    href='https://doi.org/10.1007/s00221-018-5427-8' target='_blank'>Cognitive
-                    resilience after prolonged task performance: An ERP investigation.</OutboundLink> Experimental Brain
-                    Research,
-                    237, 377-388.
+                    href='https://doi.org/10.1007/s00221-018-5427-8' target='_blank'>Cognitive resilience after
+                    prolonged task performance: An ERP investigation.</OutboundLink> Experimental Brain Research, 237,
+                    377-388.
                 </p>
 
                 <p>Ehmann, B., Altbäcker, A., & Balázs, L. (2018). <OutboundLink
@@ -77,8 +82,7 @@ export default () => {
                     Altbäcker, A., ... & Clemens, Z. (2016). <OutboundLink
                         href='https://doi.org/10.1016/j.neulet.2015.12.056'
                         target='_blank'>2D: 4D finger ratio positively correlates with total cerebral cortex in
-                        males.</OutboundLink> Neuroscience
-                    Letters, 615, 33-36.</p>
+                        males.</OutboundLink> Neuroscience Letters, 615, 33-36.</p>
 
                 <p>Darnai, G., Plózer, E., Perlaki, G., Orsi, G., Nagy, S. A., Horvath, R., Schwarcz, A., Kovacs, N.,
                     Altbäcker, A., Janszky, J., & Clemens, Z. (2015). <OutboundLink
@@ -97,9 +101,8 @@ export default () => {
                 <p>Kuperczkó, D., Perlaki, G., Faludi, B., Orsi, G., Altbacker, A., Kovács, N., ... & Janszky, J.
                     (2015). <OutboundLink
                         href='https://doi.org/10.1111/sbr.12077' target='_blank'>Late bedtime is associated with
-                        decreased
-                        hippocampal volume in young healthy subjects.</OutboundLink> Sleep and Biological Rhythms, 13,
-                    68-75.</p>
+                        decreased hippocampal volume in young healthy subjects.</OutboundLink> Sleep and Biological
+                    Rhythms, 13, 68-75.</p>
 
                 <p>Altbäcker, A., Plózer, E., Darnai, G., Perlaki, G., Orsi, G., Nagy, S. A., ... & Clemens, Z.
                     (2014). <OutboundLink
@@ -116,10 +119,10 @@ export default () => {
                 </p>
 
                 <p>Perlaki, G., Horvath, R., Orsi, G., Aradi, M., Auer, T., Varga, E., Kantor, G., Altbäcker, A., ... &
-                    Janszky,
-                    J. (2013). <OutboundLink href='https://doi.org/10.1016/j.bandc.2013.05.005' target='_blank'>White-matter
-                        microstructure and language lateralization in left-handers: a whole-brain MRI
-                        analysis.</OutboundLink> Brain and Cognition, 82(3), 319-328. </p>
+                    Janszky, J. (2013). <OutboundLink href='https://doi.org/10.1016/j.bandc.2013.05.005'
+                                                      target='_blank'>White-matter microstructure and language
+                        lateralization in left-handers: a whole-brain MRI analysis.</OutboundLink> Brain and Cognition,
+                    82(3), 319-328. </p>
 
                 <Link style={{textDecoration: 'none', paddingTop: '2rem'}} to='/'>Back Home</Link>
             </div>
