@@ -10,7 +10,7 @@ const ListLink = (props: any) => {
 }
 
 export default () => {
-    const isPublicationsPage = window.location.pathname.includes('publications');
+    const isPublicationsPage = (typeof window !== 'undefined') && window.location.pathname.includes('publications');
 
     const navStyle = {
         padding: '1rem',
