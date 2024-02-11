@@ -23,7 +23,7 @@ export default ({style}: { style: CSSProperties }) => {
             </OutboundLink>
         </span>
             <span>
-            <OutboundLink href='mailto:' style={{textDecoration: 'none'}} target='_blank' title='Send Email'>
+            <OutboundLink href='mailto:furthermoreservices@gmail.com' style={{textDecoration: 'none'}} target='_blank' title='Send Email'>
                 <StaticImage src='../images/email.svg' alt='email' width={30}/>
             </OutboundLink>
         </span>
