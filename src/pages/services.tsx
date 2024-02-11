@@ -1,22 +1,13 @@
-import React from "react";
+import React, {CSSProperties} from "react";
 import Block from "../components/Block";
 import {StaticImage} from "gatsby-plugin-image";
 
-export default () => (
+export default ({style}: { style: CSSProperties }) => (
     <div
         id='services'
-        style={{
-            display: `grid`,
-            justifyItems: 'center',
-            width: '80%',
-            justifySelf: 'center',
-            padding: '2rem 5rem',
-            backgroundColor: 'whitesmoke',
-            boxShadow: 'rosybrown 10px 10px 10px',
-            marginBottom: '3rem',
-            borderRadius: 4
-        }}>
-        <h2 style={{textShadow: `2px grey`, fontSize: `2rem`, fontWeight: 'lighter'}}>What can I offer You?</h2>
+        style={style}>
+        <h2 style={{textShadow: `2px grey`, fontSize: `2rem`, fontWeight: 'lighter', justifySelf: 'center'}}>What can I
+            offer You?</h2>
         <h4 style={{width: '60%', fontWeight: 'lighter', textAlign: 'center', paddingBottom: '30px'}}>I am well
             aware that each scientific project is unique, and that's why I offer tailored services to meet your
             specific needs.</h4>
@@ -63,18 +54,6 @@ export default () => (
                     your scientific work to a global audience."/>
             </span>
         </div>
-
-        <button style={{
-            width: 'fit-content',
-            fontSize: '1.15rem',
-            borderRadius: `1.15rem`,
-            padding: '0.5rem 0.75rem',
-            backgroundColor: 'palevioletred',
-            border: '2px outset',
-            fontWeight: 'lighter',
-            color: 'whitesmoke'
-        }}>Get in touch
-        </button>
     </div>
 )
 
