@@ -46,7 +46,8 @@ const servicesStyle = {
     backgroundColor: 'whitesmoke',
     boxShadow: 'rosybrown 10px 10px 10px',
     marginBottom: '3rem',
-    borderRadius: 4
+    borderRadius: 4,
+    borderStyle: 'outset'
 }
 
 const IndexPage: React.FC<PageProps> = () => {
