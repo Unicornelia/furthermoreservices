@@ -31,7 +31,7 @@ const footerStyle = {
     alignItems: 'center',
     justifySelf: 'center',
     textAlign: 'justify' as AlignSetting,
-    padding: '1rem',
+    padding: '0.5rem',
     margin: '1rem',
     borderRadius: '0.5rem',
     backgroundColor: 'whitesmoke',
@@ -48,8 +48,6 @@ const servicesStyle = {
     marginBottom: '3rem',
     borderRadius: 4
 }
-
-const headerStyle = {textShadow: `2px grey`, fontSize: `2rem`, fontWeight: 'lighter', justifySelf: 'center'};
 
 const IndexPage: React.FC<PageProps> = () => {
     return (
